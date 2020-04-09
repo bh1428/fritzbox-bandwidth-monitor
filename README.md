@@ -8,7 +8,7 @@ docker build -t fritzbox-bandwidth-monitor .
 
 Run with "docker":
 ```
-docker run -d -p 80:80 fritzbox-bandwidth-monitor 
+docker run -d -p 80:80 fritzbox-bandwidth-monitor
 ````
 or (in case you want to persist the HTML output and log):
 ```
